@@ -30,7 +30,7 @@ function App() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
-    document.dispatchEvent(new Event('prerender-ready'));
+   // document.dispatchEvent(new Event('prerender-ready'));
     //
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
