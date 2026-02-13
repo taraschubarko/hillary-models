@@ -53,7 +53,7 @@ function App() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://formspree.io/f/mwvnlrnq', {
+      const response = await fetch('https://formspree.io/f/mojnepjo', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -96,7 +96,7 @@ function App() {
     },
     {
       icon: <Camera className="w-8 h-8" />,
-      title: 'Фото-позиція',
+      title: 'Фотопозування',
       description: 'Освоїмо професійні пози для фотосесій'
     },
     {
@@ -228,7 +228,7 @@ function App() {
           </p>
           
           <p className="text-lg text-white/60 mb-12 max-w-xl mx-auto">
-            Професійна підготовка юних моделей від 4 до 16 років
+            Професійна підготовка юних моделей від 6 до 16 років
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -281,20 +281,7 @@ function App() {
                 фото-позування, акторську майстерність та розвиток особистісних якостей.
               </p>
               
-              <div className="grid grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-lavender mb-1">10+</div>
-                  <div className="text-sm text-gray-500">Років досвіду</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-teal mb-1">500+</div>
-                  <div className="text-sm text-gray-500">Випускників</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-lavender mb-1">50+</div>
-                  <div className="text-sm text-gray-500">Показів</div>
-                </div>
-              </div>
+
             </div>
             
             <div className="relative">
@@ -464,7 +451,7 @@ function App() {
                     name="age"
                     type="number"
                     placeholder="Наприклад: 8"
-                    min="4"
+                    min="6"
                     max="16"
                     value={formData.age}
                     onChange={handleInputChange}
@@ -558,8 +545,8 @@ function App() {
                 <MapPin className="w-8 h-8 text-lavender" />
               </div>
               <h3 className="text-xl font-bold text-black mb-2">Адреса</h3>
-              <p className="text-gray-600">м. Київ, вул. Модельна, 15</p>
-              <p className="text-gray-500 text-sm">(біля метро Палац України)</p>
+              <p className="text-gray-600">м. Київ, Раїси Окіпної, 4Б</p>
+              <p className="text-gray-500 text-sm">(біля метро Лівобережна)</p>
             </div>
             
             <div className="bg-white rounded-3xl p-8 text-center shadow-sm">
@@ -567,7 +554,7 @@ function App() {
                 <Phone className="w-8 h-8 text-teal" />
               </div>
               <h3 className="text-xl font-bold text-black mb-2">Телефон</h3>
-              <p className="text-gray-600">+380 (67) 123-45-67</p>
+              <p className="text-gray-600">+380 (63) 416-66-73</p>
               <p className="text-gray-500 text-sm">Щодня з 9:00 до 20:00</p>
             </div>
             
@@ -576,7 +563,7 @@ function App() {
                 <Instagram className="w-8 h-8 text-lavender" />
               </div>
               <h3 className="text-xl font-bold text-black mb-2">Instagram</h3>
-              <p className="text-gray-600">@hillary.models</p>
+              <p className="text-gray-600"><a href="https://www.instagram.com/hillarymodels_agency?igsh=dm5qYWRhaDBoY3V1&utm_source=qr">@hillarymodels_agency</a></p>
               <p className="text-gray-500 text-sm">Слідкуйте за нашими новинами</p>
             </div>
           </div>
@@ -610,10 +597,10 @@ function App() {
             </div>
             
             <div className="flex items-center gap-4">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-lavender/20 transition-colors">
+              <a href="https://www.instagram.com/hillarymodels_agency?igsh=dm5qYWRhaDBoY3V1&utm_source=qr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-lavender/20 transition-colors">
                 <Instagram className="w-5 h-5 text-white" />
               </a>
-              <a href="tel:+380671234567" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-lavender/20 transition-colors">
+              <a href="tel:+380634166673" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-lavender/20 transition-colors">
                 <Phone className="w-5 h-5 text-white" />
               </a>
             </div>
