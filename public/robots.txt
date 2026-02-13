@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.hillary-models.kyiv.ua/sitemap.xml

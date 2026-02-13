@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Головна сторінка -->
+    <url>
+        <loc>https://www.hillary-models.kyiv.ua/</loc>
+        <lastmod>2026-02-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Про агентство -->
+    <url>
+        <loc>https://www.hillary-models.kyiv.ua/#about</loc>
+        <lastmod>2026-02-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Послуги -->
+    <url>
+        <loc>https://www.hillary-models.kyiv.ua/#benefits</loc>
+        <lastmod>2026-02-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Галерея моделей -->
+    <url>
+        <loc>https://www.hillary-models.kyiv.ua/#trial</loc>
+        <lastmod>2026-02-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Контакти -->
+    <url>
+        <loc>https://www.hillary-models.kyiv.ua/#contacts</loc>
+        <lastmod>2026-02-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
